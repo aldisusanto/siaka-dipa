@@ -72,7 +72,7 @@
                                     <tbody>
 
                                     @foreach($jadwal as $value)
-                                    @if($value->matakuliah->semester == "Semester 1")
+                                    @if($value->matakuliah->semester == "Semester 2")
                                     <tr>
                                         <td>{{ $value->matakuliah->kode_matakuliah }}</td>
                                         <td>{{ $value->matakuliah->nama_matakuliah}}</td>

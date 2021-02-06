@@ -74,7 +74,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="{{route('dosen')}}" class="nav-link  {{ Request::is('dosen') ? 'active' : '' }}">
+                    <a href="{{route('dosen_kontak')}}" class="nav-link  {{ Request::is('dosen_kontak') ? 'active' : '' }}">
                         <i class="nav-icon fas fa-users"></i>
                         <p>
                             Kontak Dosen

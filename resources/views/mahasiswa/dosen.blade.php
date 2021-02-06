@@ -4,6 +4,9 @@
     <div class="row" style="padding-top:20px">
         <div class="col-md-12">
             <div class="card">
+                <div class="card-header card-primary card-outline">
+                    <h3>Kontak Dosen</h3>
+                </div>
                 <div class="card-body">
                     <div class="card-body table-responsive p-0">
                         <table class="table table-hover text-nowrap">

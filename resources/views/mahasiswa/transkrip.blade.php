@@ -9,7 +9,10 @@ if (isset($mahasiswa->matakuliah)) {
 @section('content')
 <br>
 <div class="col-md-12">
-    <div class="card">
+    <div class="card card-primary card-outline">
+        <div class=" card-header">
+            <h3>Transkrip </h3>
+        </div>
         <div class="card-body table-responsive p-0">
             <table class="table table-hover text-nowrap">
                 <thead>

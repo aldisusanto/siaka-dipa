@@ -60,6 +60,6 @@ Route::group(['middleware' => ['auth', 'checkRole:mahasiswa']], function () {
     Route::get('jadwal', [\App\Http\Controllers\JadwalMahasiswaController::class, 'index'])->name('jadwal');
     Route::get('nilai', [\App\Http\Controllers\NilaiMahasiswaController::class, 'index'])->name('nilai');
     Route::get('transkrip', [\App\Http\Controllers\TranscriptMahasiswaController::class, 'index'])->name('transkrip');
-    Route::get('dosen', [\App\Http\Controllers\DosenListController::class, 'index'])->name('dosen');
+    Route::get('dosen_kontak', [\App\Http\Controllers\DosenListController::class, 'index'])->name('dosen_kontak');
 });
 
